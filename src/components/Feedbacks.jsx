@@ -10,9 +10,7 @@ import { testimonials } from "../constants";
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-    Feedback
-    </div>
+    <>Feedback</>
   );
 };
 

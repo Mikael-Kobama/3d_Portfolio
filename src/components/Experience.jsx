@@ -20,7 +20,7 @@ const ExperienceCard = () => {
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <>Experience</>
   );
 };
 

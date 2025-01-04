@@ -22,16 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logoImage}
-            alt="logo"
-            style={{
-              width: '300px',  // Define a largura da imagem
-              height: '300px', // Define a altura da imagem
-              objectFit: 'contain', // Ajusta a imagem para manter suas proporções
-              borderRadius: '8px',
-            }}
-          />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer">
             Mikael <span className="sm:block hidden">| Web Developer</span>
           </p>
